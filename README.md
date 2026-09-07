@@ -129,28 +129,20 @@ Possible improvements include:
 ```text
 solar-panel-defect-detection/
 │
-├── models/
-│   ├── best_model.h5
-│   ├── best_resnet50_model.h5
-│   └── best_vgg16_model.h5
+│ ── SolarPanelDefectDetection.ipynb
+│ ── SolarPanelDefectDetection (2).ipynb
+│ ── SolarPanelDefectDetectionWITHAugmentation.ipynb
 │
-├── notebooks/
-│   ├── SolarPanelDefectDetection.ipynb
-│   ├── SolarPanelDefectDetection (2).ipynb
-│   └── SolarPanelDefectDetectionWITHAugmentation.ipynb
+|
+│ ── solarpaneldefectdetection.py
 │
-├── src/
-│   └── solarpaneldefectdetection.py
+│ ── download-RESNET50latest.png
+│ ── download-VGG16latest.png
+│ ── epochsgeneralmodeltraining-output.png
+│ ── REG-NET16Trained.png
+│ ── VGG-NET16Trained.png
 │
-├── results/
-│   ├── download-RESNET50latest.png
-│   ├── download-VGG16latest.png
-│   ├── epochsgeneralmodeltraining-output.png
-│   ├── REG-NET16Trained.png
-│   └── VGG-NET16Trained.png
-│
-├── report/
-│   └── SOLAR_PANEL_PROJECT.pdf
+│ ── SOLAR_PANEL_PROJECT.pdf
 │
 ├── requirements.txt
 ├── README.md
